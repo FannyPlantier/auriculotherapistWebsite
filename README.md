@@ -1,4 +1,4 @@
-# claireWebsite
+# therapistWebsite
 
 ---------
 
