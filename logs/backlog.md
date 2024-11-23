@@ -17,7 +17,7 @@ I'll work with the palette she chooses from the six I proposed to her.
 
 Delivery/Deployement : scheduled for around september 2025.
 
-# Wireframing
+# Wireframing (WIP)
 - [global design](global.pdf)
 - [therapist presentation](claire.pdf)
 - [auriculotherapy presentation](auriculotherapy.pdf)
