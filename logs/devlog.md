@@ -12,7 +12,7 @@ I will pay close attention to the website’s ecological impact, focusing on:
 
 
 ***COLOR PALETTES*** <br>
-Based on the color the therapist mentioned she likes, I will propose six palettes for her to choose from.
+Based on the color the therapist mentioned she likes, I proposed six palettes for her to choose from.
 ![image](https://github.com/user-attachments/assets/1bba480c-f582-4e22-9e45-e41c247f6ab8)
 
 
