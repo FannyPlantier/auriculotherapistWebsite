@@ -14,4 +14,8 @@ One of the colors she wants for the site is a light blue-green (RGB : 184, 222, 
 
 Delivery/Deployement : scheduled for around september 2025.
 
-# Wireframe
+# Wireframing
+- [global design](global.pdf)
+- [therapist presentation](claire.pdf)
+- [auriculotherapy presentation](auriculotherapy.pdf)
+- [address and contact](contact.pdf)
