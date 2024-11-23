@@ -6,6 +6,8 @@ The therapist wants to:
 - Describe and present auriculotherapy including some datas about it
 - Allow patients to find her (address with map, and contact form)
 
+Of course, the website should be responsive to the device it is viewed on.
+
 She neither needs nor wants to modify the website herself.
 
 One of the colors she wants for the site is a light blue-green (RGB : 184, 222, 217).
