@@ -10,4 +10,6 @@ She neither needs nor wants to modify the website herself.
 
 One of the colors she wants for the site is a light blue-green (RGB : 184, 222, 217).
 
+Delivery/Deployement : scheduled for around september 2025.
+
 # Wireframe
