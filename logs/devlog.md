@@ -27,3 +27,5 @@ She preferred the first one but mentioned that we couldn’t use the word 'thér
 Second batch of ideas <br>
 ![image](https://github.com/user-attachments/assets/51cc855e-d363-401f-8062-b924bae481bd)
 
+The final design of the logo <br>
+![image](https://github.com/user-attachments/assets/a015aac5-807d-44b1-88ba-3ce6ce2a8b6d)
