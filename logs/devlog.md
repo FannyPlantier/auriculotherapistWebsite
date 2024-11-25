@@ -17,5 +17,13 @@ Based on the color the therapist mentioned she likes, I proposed six palettes fo
 
 
 
+## <ins>Nov 25th</ins>
 
+We worked on the logo and name for her activity. I proposed three logo designs as a starting point for reflection. 
+![WhatsApp Image 2024-11-25 à 19 39 16_fc82d32c](https://github.com/user-attachments/assets/6515762c-ec35-482b-bd3d-a88412fb03f5)
+
+She preferred the first one but mentioned that we couldn’t use the word 'thérapie' because she is not a doctor.
+
+Second batch of ideas <br>
+![image](https://github.com/user-attachments/assets/51cc855e-d363-401f-8062-b924bae481bd)
 
