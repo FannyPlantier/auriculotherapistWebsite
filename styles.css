@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+    font-family: 'Century Gothic';
+  }
+
+.flexbox{
+    display: flex;
+}
+
+.logo {
+    width: 40%;
+    height: auto;
+    float: left;
+}
+
+#menu {
+    width: 60%;
+    float:right;
+    justify-content: end;
+    align-items: center;
+}
+
+#menu > p {
+    padding: 1rem;
+    font-size: large;
+}
+
+#menu > p:hover {
+    padding: 1rem;
+    font-size: large;
+    font-weight: bold;
+    color: #0E675B;
+}
+
+
+
