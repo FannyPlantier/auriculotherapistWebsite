@@ -1,9 +1,15 @@
 * {
     box-sizing: border-box;
     font-family: 'Century Gothic';
+    margin : 0;
   }
 
-.flexbox{
+header {
+    padding: 0.3rem;
+    box-shadow: 0 0.3rem 8px rgba(14, 102, 90, 0.2);
+}
+
+.flexbox {
     display: flex;
 }
 
@@ -15,21 +21,22 @@
 
 #menu {
     width: 60%;
+    margin: 1%;
     float:right;
     justify-content: end;
     align-items: center;
 }
 
 #menu > p {
-    padding: 1rem;
+    margin: 2%;
     font-size: large;
 }
 
 #menu > p:hover {
-    padding: 1rem;
     font-size: large;
-    font-weight: bold;
     color: #0E675B;
+    text-decoration: underline;
+    text-underline-offset: 1rem;
 }
 
 
