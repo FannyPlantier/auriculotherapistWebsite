@@ -4,6 +4,7 @@
     margin : 0;
   }
 
+
 h2{
     scroll-margin-top:10rem;
     padding: 1rem;
@@ -19,6 +20,10 @@ header {
 
 html {
     scroll-behavior: smooth;
+}
+
+main{
+    background-color: whitesmoke;
 }
 
 .flexbox {
