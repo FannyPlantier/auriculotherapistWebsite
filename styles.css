@@ -10,7 +10,7 @@ h2{
 }
 
 header {
-    padding: 0.3rem;
+    padding: 0 0.3rem 0 0.3rem;
     box-shadow: 0 0.5rem 8px rgba(14, 102, 90, 0.2);
     position: sticky;
     top:0%;
@@ -43,6 +43,9 @@ html {
     float: left;
 }
 
+.logo{
+    height: 5rem;
+}
 .mentions{
     text-decoration: none;
     color: #18ab97;
@@ -64,8 +67,7 @@ html {
 }
 
 #menu {
-    width: 80%;
-    margin: 1%;
+    width: 100%;
     float:right;
     justify-content: end;
     align-items: center;
@@ -73,7 +75,7 @@ html {
 
 #menu > a {
     color: black;
-    margin: 2%;
+    margin: 1.7%;
     font-size: large;
     text-decoration: none;
 }
