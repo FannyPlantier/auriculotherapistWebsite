@@ -25,11 +25,36 @@ html {
     display: flex;
 }
 
+.footer {
+    margin-top: 2rem;
+    height:3rem;
+    justify-content: center;
+    align-items: center;
+    font-size: small;
+    background-color: #b8ded9;
+}
+
+.footer > p {
+    background-color: #b8ded9;
+    color: #18ab97;
+}
+
 .homepageLink {
     float: left;
 }
 
-.logo{
+.mentions{
+    text-decoration: none;
+    color: #18ab97;
+    background-color: #b8ded9;
+}
+
+.mentions:hover{
+    color: #0e675b;
+}
+
+#currentYear{
+    background-color: #b8ded9;
 }
 
 #menu {
@@ -44,7 +69,6 @@ html {
     margin: 2%;
     font-size: large;
     text-decoration: none;
-    color: black;
 }
 
 #menu > a:hover {
@@ -54,5 +78,6 @@ html {
     text-underline-offset: 1rem;
 }
 
-
-
+#topAnchor{
+    color: white;
+}
