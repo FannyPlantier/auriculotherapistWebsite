@@ -2,39 +2,54 @@
     box-sizing: border-box;
     font-family: 'Century Gothic';
     margin : 0;
+    background-color: white;
   }
+
+h2{
+    scroll-margin-top:10rem;
+    padding: 1rem;
+}
 
 header {
     padding: 0.3rem;
-    box-shadow: 0 0.3rem 8px rgba(14, 102, 90, 0.2);
+    box-shadow: 0 0.5rem 8px rgba(14, 102, 90, 0.2);
+    position: sticky;
+    top:0%;
+}
+
+html {
+    scroll-behavior: smooth;
 }
 
 .flexbox {
     display: flex;
 }
 
-.logo {
-    width: 40%;
-    height: auto;
+.homepageLink {
     float: left;
 }
 
+.logo{
+}
+
 #menu {
-    width: 60%;
+    width: 80%;
     margin: 1%;
     float:right;
     justify-content: end;
     align-items: center;
 }
 
-#menu > p {
+#menu > a {
     margin: 2%;
     font-size: large;
+    text-decoration: none;
+    color: black;
 }
 
-#menu > p:hover {
+#menu > a:hover {
     font-size: large;
-    color: #0E675B;
+    color: #1dcdb5;
     text-decoration: underline;
     text-underline-offset: 1rem;
 }
