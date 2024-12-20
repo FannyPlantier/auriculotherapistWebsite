@@ -5,9 +5,10 @@
   }
 
 
-h2{
+h2 {
     scroll-margin-top:10rem;
     padding: 1rem;
+    text-align: center;
 }
 
 header {
@@ -24,6 +25,10 @@ html {
 
 main{
     background-color: whitesmoke;
+}
+
+.button {
+    
 }
 
 .flexbox {
@@ -44,13 +49,48 @@ main{
     color: #18ab97;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    width: 100%;
+}
+
+.form input, 
+.form textarea {
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    font-size: 1rem;
+}
+
+.form label {
+    margin-bottom: 0.5rem;
+}
+
 .homepageLink {
     float: left;
 }
 
-.logo{
+.logo {
     height: 5rem;
 }
+
+.mandatory {
+    color: red;
+    font-weight: bold;
+}
+
+.map {
+    border: dotted #0e675b 2px;
+}
+
+.mapContact {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 3rem;
+}
+
 .mentions{
     text-decoration: none;
     color: #18ab97;
