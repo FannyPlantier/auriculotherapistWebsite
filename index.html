@@ -38,16 +38,15 @@
                 <h2 id="officeAnchor">Le cabinet</h2>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5570.115148899218!2d4.831807376202165!3d45.72994017107956!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47f4ea28a69ed701%3A0x688f76e7113ed0cb!2s29%20Rue%20Challemel-Lacour%2C%2069007%20Lyon!5e0!3m2!1sfr!2sfr!4v1734709790428!5m2!1sfr!2sfr" 
                 class="map"
-                width="600" 
-                height="450" 
-                allowfullscreen="" 
+                width="650" 
+                height="600" 
                 loading="lazy" 
                 referrerpolicy="no-referrer-when-downgrade">
                 </iframe>
             </div> 
             <div>    
                 <h2 id="contactAnchor">Contact</h2>
-                <form method="post">
+                <form action="mailto:fannyrouxfr@gmail.com" method="post" enctype="text/plain">
                     <fieldset>
                         <div class="form">
                             <label for="name"> Nom <span class="mandatory">*</span></label>
@@ -67,8 +66,9 @@
                         </div>
                         <div class="form">
                             <label for="msg">Message <span class="mandatory">*</span></label>
-                            <textarea id="msg" name="userMessage" required></textarea>
+                            <textarea id="msg" name="userMessage" rows="9" placeholder="Saisissez votre message..."></textarea>
                         </div>
+<!--                        <div class="g-recaptcha" data-sitekey="VOTRE_CLÉ_DU_SITE"></div> -->
                         <div class="button">
                             <button type="submit">Envoyer le message</button>
                         </div>
