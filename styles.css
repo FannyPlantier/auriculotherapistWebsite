@@ -5,15 +5,16 @@
   }
 
 button {
-    background-color: #b8ded9;
-    border-color: #b8ded9;
+    background-color: #1dcdb5;
+    color: whitesmoke;
+    border-color: #1dcdb5   ;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color:#0e675b;
-    background-color: #0e675b;
-    color: whitesmoke;
+    background-color: #b8ded9;
+    border-color: #b8ded9;
+    color: black;
     border-radius: 5px;
 }
 
@@ -109,6 +110,15 @@ main{
 
 .mentions:hover{
     color: #0e675b;
+}
+
+.presentation{
+    padding: 3rem;
+    display: flex;
+}
+
+.presentation > p {
+    padding-left: 3rem;
 }
 
 .reflexo{
