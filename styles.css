@@ -5,16 +5,16 @@
   }
 
 button {
-    background-color: #1dcdb5;
-    color: whitesmoke;
-    border-color: #1dcdb5   ;
+    background-color: #b8ded9;
+    border-color: #b8ded9;
+    color: black;
     border-radius: 5px;
 }
 
 button:hover {
-    background-color: #b8ded9;
-    border-color: #b8ded9;
-    color: black;
+    background-color: #1dcdb5;
+    color: whitesmoke;
+    border-color: #1dcdb5;
     border-radius: 5px;
 }
 
@@ -32,6 +32,7 @@ header {
     position: sticky;
     top:0%;
     background-color: white;
+    z-index: 1000;
 }
 
 html {
@@ -40,6 +41,12 @@ html {
 
 main{
     background-color: whitesmoke;
+}
+
+picture{
+    padding-left: 30%;
+    transition: transform 0.8s ease;
+    z-index: 2;
 }
 
 .flexbox {
@@ -112,13 +119,34 @@ main{
     color: #0e675b;
 }
 
+.portrait{
+    border-radius: 79% 21% 79% 21% / 21% 79% 21% 79%; 
+    border: solid #0e675b 2px;
+}
+
 .presentation{
     padding: 3rem;
     display: flex;
+    justify-content: center;
 }
 
 .presentation > p {
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 2s ease;
+}
+
+.presentation:hover picture{
     padding-left: 3rem;
+    opacity: 0.8;
+    transform: translateX(-3rem);
+}
+
+.presentation:hover p{
+    display: flex;
+    visibility: visible;
+    opacity: 1;
+    align-items: center;
 }
 
 .reflexo{
