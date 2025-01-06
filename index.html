@@ -4,14 +4,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Auri'Claire Réflexologie</title>
     <link rel="icon" type="image/png" href="resources/img/favIcon.png">
-    <link rel="stylesheet" media="screen and (min-width:768px)" href="styles.css">
-    <link rel="stylesheet" media="screen and (max-width:767px)" href="stylesSmartphone.css">
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
         <nav class="flexbox">
             <a href="#topAnchor" class="homepageLink">
-                <img src="resources/img/logo.svg" alt="logo Auri'Claire Réflexologie" class="logo">
+                <picture>
+                    <source media="(max-width: 767px)" srcset="resources/img/favIcon.png">
+                    <source media="(min-width: 768px)" srcset="resources/img/logo.svg">
+                    <img src="resources/img/logo.svg" alt="logo Auri'Claire Réflexologie" class="logo">
+                </picture>
             </a>
             <div class="flexbox" id="menu">
                 <a href="#aboutAnchor">À propos</a>

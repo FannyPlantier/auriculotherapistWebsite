@@ -1,3 +1,15 @@
+@media screen and (max-width:768px) {
+    img {
+        src: url(resources/img/favIcon.png);
+    }
+
+    .mapContact {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
 * {
     box-sizing: border-box;
     font-family: 'Century Gothic';
