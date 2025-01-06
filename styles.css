@@ -1,11 +1,10 @@
 @media screen and (max-width:768px) {
-    img {
-        src: url(resources/img/favIcon.png);
+    .logoSmallDevice {
+        padding: 0;
     }
 
-    .mapContact {
-        display: grid;
-        grid-template-columns: 1fr;
+    #menu {
+        display:none;
     }
 }
 
@@ -45,6 +44,7 @@ header {
     box-shadow: 0 0.5rem 8px rgba(14, 102, 90, 0.2);
     position: sticky;
     top:0%;
+    height: 4rem;
     background-color: white;
     z-index: 1000;
 }
@@ -53,11 +53,11 @@ html {
     scroll-behavior: smooth;
 }
 
-main{
+main {
     background-color: whitesmoke;
 }
 
-picture{
+picture {
     padding-left: 30%;
     transition: transform 0.8s ease;
     z-index: 2;
@@ -102,10 +102,17 @@ picture{
 
 .homepageLink {
     float: left;
+    height: 4rem;
 }
 
 .logo {
-    height: 5rem;
+    height: 4rem;
+    display: flexbox;
+    
+}
+
+.logoSmallDevice {
+    visibility: hidden;
 }
 
 .mandatory {
@@ -123,22 +130,22 @@ picture{
     padding: 1rem;
 }
 
-.mentions{
+.mention s{
     text-decoration: none;
     color: #18ab97;
     background-color: #b8ded9;
 }
 
-.mentions:hover{
+.mentions:hover {
     color: #0e675b;
 }
 
-.portrait{
+.portrait {
     border-radius: 79% 21% 79% 21% / 21% 79% 21% 79%; 
     border: solid #18ab97 2px;
 }
 
-.presentation{
+.presentation {
     padding: 3rem;
     display: flex;
     justify-content: center;
@@ -150,31 +157,32 @@ picture{
     transition: opacity 2s ease;
 }
 
-.presentation:hover picture{
+.presentation:hover picture {
     padding-left: 3rem;
     opacity: 0.8;
     transform: translateX(-3rem);
 }
 
-.presentation:hover p{
+.presentation:hover p {
     display: flex;
     visibility: visible;
     opacity: 1;
     align-items: center;
 }
 
-.reflexo{
+.reflexo {
     background-color: #1dcdb5;
     color:whitesmoke;
     padding: 1rem;
 }
 
-#currentYear{
+#currentYear {
     background-color: #b8ded9;
 }
 
 #menu {
     width: 100%;
+    height: 4rem;
     float:right;
     justify-content: end;
     align-items: center;
